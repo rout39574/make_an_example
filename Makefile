@@ -20,7 +20,7 @@ clean:
 	touch $@  # and ${first} and ${second} as part of command line.
 
 
-%.input:
+input.%:
 	touch $@
 
 

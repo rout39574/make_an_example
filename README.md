@@ -14,4 +14,6 @@ task of copying it. ;)   Of course, you could do something that's
 actually interesting to generate it, too. 
 
 
-If you 'make everything', 
+If you 'make everything', the dependencies get generated at runtime,
+and the complex output is produced by dint of a command line which
+includes multiple parameterized substitutions.

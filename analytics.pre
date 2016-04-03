@@ -6,7 +6,11 @@ bar.compout:: input.bar
 baz.compout:: input.baz
 
 
+foo_bar.compout:: input.foo input.bar
 
+bar_baz.compout:: input.baz input.bar
+
+wibby_wobby.compout:: input.plppth input.billcat
 
 everything: foo_bar.compout bar_baz.compout wibby_wobby.compout
 
