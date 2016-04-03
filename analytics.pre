@@ -1,0 +1,12 @@
+
+
+
+foo.compout:: input.foo
+bar.compout:: input.bar
+baz.compout:: input.baz
+
+
+
+
+everything: foo_bar.compout bar_baz.compout wibby_wobby.compout
+
